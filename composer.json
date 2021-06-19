@@ -10,8 +10,6 @@
         }
     ],
     "version": "1.0.0",
-    "minimum-stability": "dev",
-    "identify-stable": true,
     "require": {},
     "autoload": {
         "files": [
