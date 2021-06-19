@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<mf_notuficator_general>
+			<mf_messenger_notificator_enable>
+				<enable/>
+			</mf_messenger_notificator_enable>
+		</mf_notuficator_general>
+	</default>
+</config>

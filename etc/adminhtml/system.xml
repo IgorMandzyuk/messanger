@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="mf_messenger_notificator" translate="label" sortOrder="999">
+			<label>mf_messenger_notificator</label>
+		</tab>
+		<section id="mf_notuficator_general" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>mf_notuficator_general</label>
+			<tab>mf_messenger_notificator</tab>
+			<resource>Igorm_MessangerNotificator::config_igorm_messangernotificator</resource>
+			<group id="mf_messenger_notificator_enable" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>mf_messenger_notificator_enable</label>
+				<field id="enable" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>enable</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
