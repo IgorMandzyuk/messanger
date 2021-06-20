@@ -1,13 +1,17 @@
 {
-    "name": "igorr/messanger-notificator",
+    "name": "igorm/module-messangernotificator",
+    "description": "Notifacotar Magento 2",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
     "authors": [
         {
-            "name": "IgorMandzyuk",
-            "email": "mr.mandzyuk@gmail.com"
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
-        "autoload": {
+    "autoload": {
         "files": [
             "registration.php"
         ],
